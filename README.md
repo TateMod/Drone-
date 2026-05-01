@@ -23,40 +23,41 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 ## Components
 
 ### Computing
-| Component | Purpose |
-|---|---|
-| Raspberry Pi Pico W2 | Flight controller — runs all flight algorithms |
-| Raspberry Pi Zero W2 | Companion computer — telemetry logging and camera |
+| Component | Purpose | Vendor Link |
+|---|---|---|
+| Raspberry Pi Pico W2 | Flight controller — runs all flight algorithms |https://thepihut.com/products/raspberry-pi-pico-2-w|
+| Raspberry Pi Zero W2 | Companion computer — telemetry logging and camera | https://thepihut.com/products/raspberry-pi-zero-2|
 
 ### Sensors
-| Component | Purpose |
-|---|---|
-| Adafruit LSM9DS1 9-axis IMU | Attitude estimation (roll, pitch, yaw) |
-| Adafruit VL53L1X Time of Flight | Altitude estimation |
-| PMW3901 Optical Flow Sensor | Position hold assistance |
-| Raspberry Pi Camera Module 3 | Camera feed via companion computer |
+| Component | Purpose | Vendor Link |
+|---|---|---|
+| Adafruit LSM9DS1 9-axis IMU | Attitude estimation (roll, pitch, yaw) | https://thepihut.com/products/adafruit-9-dof-accel-mag-gyro-temp-breakout-board-lsm9ds1?srsltid=AfmBOooFrkhikDz0ijYzmxQt1v2vGR7sgnxkdVq3Co3ty4OOVWG00xn3|
+| Adafruit VL53L1X Time of Flight | Altitude estimation | https://thepihut.com/products/adafruit-vl53l1x-time-of-flight-distance-sensor-30-to-4000mm-stemma-qt-qwiic?variant=41013995274435&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22549809780&gbraid=0AAAAADfQ4GEtMNg3YcMH3V03dk-w8A2dq&gclid=CjwKCAjwntHPBhAaEiwA_Xp6RmIP8PK5z5x63zYWALa-Qcv4fISQhzVG38zAGtn4qVT4n1LHezYZbRoCpQUQAvD_BwE 
+| PMW3901 Optical Flow Sensor | Position hold assistance | https://thepihut.com/products/pmw3901-optical-flow-sensor-breakout?variant=39950102134979&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22549809780&gbraid=0AAAAADfQ4GEtMNg3YcMH3V03dk-w8A2dq&gclid=CjwKCAjwntHPBhAaEiwA_Xp6RmSjgU934mbIRqq7qKCAtSD9TTOK_xmXyZUvamJhuDtUnU4XIoFbYBoCeKIQAvD_BwE|
+
 
 ### Propulsion
-| Component | Purpose |
-|---|---|
-| Flash 1404 4500KV motors (x4) | Generates adequate thrust for ~200g system |
-| 3.5 inch tri-blade propellers (x4) | Tri-blade for stable efficient flight at lower speeds |
-| HAKRC 45A 4-in-1 BLHeli_S ESC | Controls motor speed via PWM signals |
+| Component | Purpose | Vendor Link |
+|---|---|---|
+| Flash 1404 4500KV motors (x4) | Generates adequate thrust for ~200g system | https://www.unmannedtechshop.co.uk/products/flyfish-flash-1404-4500kv-fpv-motor?variant=56578373386621&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=17190531323&gbraid=0AAAAADwHAwWPd0HuVvYX6-IV3p4H1hWip&gclid=CjwKCAjwntHPBhAaEiwA_Xp6Rv18D5PgFpi6pkaIOdMkJP_oE_jZtTI6dD2AQpwhoqv5T4klMYm2uRoCtZcQAvD_BwE|
+| 3.5 inch tri-blade propellers (x4) | Tri-blade for stable efficient flight at lower speeds | https://yourfpv.co.uk/product/hqprop-t3-5x2-5x3-orange-1-5mm-2cw2ccw-copy/|
+| HAKRC 45A 4-in-1 BLHeli_S ESC | Controls motor speed via PWM signals | https://yourfpv.co.uk/product/hakrc-8-bit-45a-twin-mount-30-530-5mm-and-2020mm-4in1-esc/ |
 
 ### Radio
 | Component | Purpose |
 |---|---|
 | FlySky FS-iA6B RC receiver | Receives control commands via iBus |
+| FlySky FS-iA6B RC receiver | sends control commands via radio |
 
 ### Power
-| Component | Purpose |
-|---|---|
-| GNB 1100mAh 2S 60C LiHV LiPo battery | Powers the system |
-| Pololu 5V 3A step-up/step-down voltage regulator | Regulates battery voltage to 5V for processors |
-| XT30 connectors | Battery and ESC power connections |
+| Component | Purpose | Vendor Link |
+|---|---|---|
+| GNB 1100mAh 2S 60C LiHV LiPo battery | Powers the system |https://www.hobbyrc.co.uk/gnb-1100mah-2s-60c-lihv-battery-xt30 |
+| Pololu 5V 3A step-up/step-down voltage regulator | Regulates battery voltage to 5V for processors | https://thepihut.com/products/pololu-5v-3a-step-up-step-down-voltage-regulator-s13v30f5?variant=41660451848387&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=22549809780&gbraid=0AAAAADfQ4GEtMNg3YcMH3V03dk-w8A2dq&gclid=CjwKCAjwntHPBhAaEiwA_Xp6RkgiPG6HTjnTSGBaaXE3fbhnJtxJ99yT5sTHGOpQH1dNhfLSGcu6oRoCZxsQAvD_BwE|
+| XT30 connectors | Battery and ESC power connections | https://www.amazon.co.uk/RUNCCI-Upgrade-Female-Connectors-Battery/dp/B07PC1YKVW/ref=asc_df_B07PC1YKVW?mcid=5b25ac04eba33348a3f482b0fe4049fb&tag=googshopuk-21&linkCode=df0&hvadid=697314515024&hvpos=&hvnetw=g&hvrand=390129552816683508&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006972&hvtargid=pla-670995760479&psc=1&hvocijid=390129552816683508-B07PC1YKVW-&hvexpln=0&gad_source=1|
 
 ### Camera Connection
-- Raspberry Pi Camera Module 3
+- Raspberry Pi Camera Module 3 - https://www.raspberrypi.com/products/camera-module-3/
 - 15-pin to 15-pin adapter
 - 22-pin to 15-pin ribbon cable (required for Zero W2)
 
