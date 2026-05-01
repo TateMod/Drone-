@@ -58,8 +58,8 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 
 ### Camera Connection
 - Raspberry Pi Camera Module 3 - https://www.raspberrypi.com/products/camera-module-3/
-- 15-pin to 15-pin adapter
-- 22-pin to 15-pin ribbon cable (required for Zero W2)
+- 15-pin to 15-pin adapter - https://thepihut.com/products/raspberry-pi-zero-camera-adapter
+- 22-pin to 15-pin ribbon cable (required for Zero W2) - https://thepihut.com/products/zero-camera-cable-joiner-for-raspberry-pi-22-pin-to-22-pin
 
 ### Tools and Equipment Required
 - 60W soldering iron
