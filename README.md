@@ -87,8 +87,7 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 
 ## Wiring
 
-![Wiring Diagram](https://github.com/user-attachments/assets/42d7349a-6831-49ab-9f66-c21792ad766a)
-
+![Wiring Diagram](https://github.com/user-attachments/assets/6cf5b6ef-4e40-476b-95b6-9515d2735c05)
 Follow the diagram above for visual guidance on all connections.
 
 ### Interface Pin Assignments
