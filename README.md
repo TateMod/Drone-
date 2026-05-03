@@ -2,7 +2,10 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 
 ---
 
-## Demo Video
+## pictures
+<img width="592" height="423" alt="image" src="https://github.com/user-attachments/assets/c04c5d31-00e0-4060-bd09-63e212bdaa08" />
+
+<img width="601" height="566" alt="image" src="https://github.com/user-attachments/assets/f2b188df-4d16-4dda-ba64-e6f45adf84bb" />
 
 ## Demo Videos
 
