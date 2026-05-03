@@ -251,8 +251,8 @@ These are the final values used in testing. Adjust based on your build weight an
 
 | Axis | P | I | D |
 |---|---|---|---|
-| Roll | 1.6 | 0.002 | 0.4 |
-| Pitch | 2.0 | 0.002 | 0.4 |
+| Roll | 1 | 0.002 | 0.1 |
+| Pitch | 1.2 | 0.002 | 0.1 |
 | Yaw | 0.5 | 0.0 | 0.0 |
 | Altitude | 0.2 | 0.0 | 0.01 |
 
