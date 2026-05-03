@@ -45,8 +45,8 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 ### Computing
 | Component | Purpose |
 |---|---|
-| Raspberry Pi Pico W2 | Flight controller — runs all flight algorithms |
-| Raspberry Pi Zero W2 | Companion computer — telemetry logging and camera |
+| Raspberry Pi Pico W2 | Flight controller - runs all flight algorithms |
+| Raspberry Pi Zero W2 | Companion computer - telemetry logging and camera |
 
 ### Sensors
 | Component | Purpose |
