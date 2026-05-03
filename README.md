@@ -159,7 +159,7 @@ Follow the diagram above for visual guidance on all connections.
 
 1. Heat soldering iron to operating temperature
 2. Pre-tin the XT30 connector pads
-3. Solder 12–14 AWG wires to the XT30 connector — red to positive (+), black to negative (−)
+3. Solder 12–14 AWG wires to the XT30 connector - red to positive (+), black to negative (−)
 4. Add the capacitor to the ESC capacitor pads, leaving room for the main power wires
 5. Solder the XT30 wires to the ESC positive and negative pads, ensuring secure connections
 6. Plug in the battery and listen for the ESC power-up beep sequence to confirm correct wiring
