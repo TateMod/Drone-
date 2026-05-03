@@ -4,7 +4,16 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 
 ## Demo Video
 
-[ADD VIDEO LINK HERE]
+## Demo Videos
+
+| Description | Link |
+|---|---|
+| Direction control verification | [Watch](https://youtube.com/shorts/0nLSP_-wE7E) |
+| Flight with large drop | [Watch](https://youtube.com/shorts/2Yogxh4Vv3w) |
+| 1 min tethered flight | [Watch](https://youtube.com/shorts/OXTsZ9uvmPU) |
+| Rig test | [Watch](https://youtube.com/shorts/fh2ME875rF4) |
+| PID test | [Watch](https://youtube.com/shorts/FNgBR3Ud5JU) |
+| Wobbly PID test | [Watch](https://youtube.com/shorts/QxyQJRjCvH8) |
 
 ---
 
