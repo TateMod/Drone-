@@ -53,10 +53,10 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 | HAKRC 45A 4-in-1 BLHeli_S ESC | Controls motor speed via PWM signals | https://yourfpv.co.uk/product/hakrc-8-bit-45a-twin-mount-30-530-5mm-and-2020mm-4in1-esc/ |
 
 ### Radio
-| Component | Purpose |
-|---|---|
-| FlySky FS-iA6B RC receiver | Receives control commands via iBus |
-| FlySky FS-iA6B RC receiver | sends control commands via radio |
+| Component | Purpose | Link |
+|---|---|---|
+| FlySky FS-i6X 10CH Transmitter & FS-X6B 2.4GHz iBUS Receiver | Receives control commands via iBus | https://www.flyingtech.co.uk/product/flysky-fs-i6x-10ch-transmitter-fs-x6b-2-4ghz-ibus-receiver/ |
+
 
 ### Power
 | Component | Purpose | Vendor Link |
