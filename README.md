@@ -3,20 +3,11 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 ---
 
 ## pictures
-<img width="592" height="423" alt="image" src="https://github.com/user-attachments/assets/c04c5d31-00e0-4060-bd09-63e212bdaa08" />
-
-<img width="601" height="566" alt="image" src="https://github.com/user-attachments/assets/f2b188df-4d16-4dda-ba64-e6f45adf84bb" />
 
 ## Demo Videos
 
 | Description | Link |
 |---|---|
-| Direction control verification | [Watch](https://youtube.com/shorts/0nLSP_-wE7E) |
-| Flight with large drop | [Watch](https://youtube.com/shorts/2Yogxh4Vv3w) |
-| 1 min tethered flight | [Watch](https://youtube.com/shorts/OXTsZ9uvmPU) |
-| Rig test | [Watch](https://youtube.com/shorts/fh2ME875rF4) |
-| PID test | [Watch](https://youtube.com/shorts/FNgBR3Ud5JU) |
-| Wobbly PID test | [Watch](https://youtube.com/shorts/QxyQJRjCvH8) |
 
 ---
 
@@ -54,7 +45,7 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 ### Sensors
 | Component | Purpose |
 |---|---|
-| Adafruit LSM9DS1 9-axis IMU | Attitude estimation (roll, pitch, yaw) |
+| | Attitude estimation (roll, pitch, yaw) with barometerand tempuature sensor for altatude estimation |
 | Adafruit VL53L1X Time of Flight | Altitude estimation |
 | PMW3901 Optical Flow Sensor | Position hold assistance |
 
@@ -62,26 +53,26 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 | Component | Purpose |
 |---|---|
 | Flash 1404 4500KV motors (x4) | Generates adequate thrust for ~200g system |
-| 3.5 inch tri-blade propellers (x4) | Tri-blade for stable efficient flight at lower speeds |
+| 3 inch tri-blade propellers (x4) | Tri-blade for stable efficient flight at lower speeds |
 | HAKRC 45A 4-in-1 BLHeli_S ESC | Controls motor speed via PWM signals |
 
 ### Radio
 | Component | Purpose |
 |---|---|
-| FlySky FS-i6X 10CH Transmitter & FS-X6B iBUS Receiver | Receives control commands via iBus |
+| FlySky FS-i6 6CH Transmitter & FS-X6B iBUS Receiver | Receives control commands via iBus |
 
 ### Power
 | Component | Purpose |
 |---|---|
-| GNB 1100mAh 2S 60C LiHV LiPo battery | Powers the system |
-| Pololu 5V 3A step-up/step-down voltage regulator | Regulates battery voltage to 5V for processors |
+| GNB 850mAh 3S 120C LiHV LiPo battery | Powers the system |
+|  5V 3A step-up/step-down voltage regulator | Regulates battery voltage to 5V for processors |
 | XT30 connectors | Battery and ESC power connections |
-| VIFLY Toothstor 4-Port 2S LiPo Charger | Charges the LiPo battery |
+|  2S and 3s LiPo Charger | Charges the LiPo battery |
 
 ### Camera
 | Component | Purpose |
 |---|---|
-| Raspberry Pi Camera Module 3 | Camera feed via companion computer |
+|  | Camera feed via companion computer |
 | 15-pin to 15-pin adapter | Connects camera to Zero W2 |
 | 22-pin to 15-pin ribbon cable | Required for Zero W2 camera connection |
 
@@ -104,18 +95,18 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 |---|---|---|
 | Raspberry Pi Pico W2 | £6.70 | [Buy](https://thepihut.com/products/raspberry-pi-pico-2-w) |
 | Raspberry Pi Zero W2 | £14.40 | [Buy](https://thepihut.com/products/raspberry-pi-zero-2) |
-| Adafruit LSM9DS1 IMU | £21.60 | [Buy](https://thepihut.com/products/adafruit-9-dof-accel-mag-gyro-temp-breakout-board-lsm9ds1) |
+|  | | |
 | Adafruit VL53L1X TOF | £14.40 | [Buy](https://thepihut.com/products/adafruit-vl53l1x-time-of-flight-distance-sensor-30-to-4000mm-stemma-qt-qwiic) |
 | PMW3901 Optical Flow Sensor | £20.70 | [Buy](https://thepihut.com/products/pmw3901-optical-flow-sensor-breakout) |
 | Flash 1404 4500KV motors (x4) | £13.29 each (×4 = £53.16) | [Buy](https://www.unmannedtechshop.co.uk/products/flyfish-flash-1404-4500kv-fpv-motor) |
-| 3.5 inch tri-blade propellers | £2.20 | [Buy](https://yourfpv.co.uk/product/hqprop-t3-5x2-5x3-orange-1-5mm-2cw2ccw-copy/) |
+| ||  |
 | HAKRC 45A 4-in-1 BLHeli_S ESC | £38.95 | [Buy](https://yourfpv.co.uk/product/hakrc-8-bit-45a-twin-mount-30-530-5mm-and-2020mm-4in1-esc/) |
-| GNB 1100mAh 2S 60C LiHV LiPo battery | £8.80 | [Buy](https://www.hobbyrc.co.uk/gnb-1100mah-2s-60c-lihv-battery-xt30) |
-| Pololu 5V 3A voltage regulator | £17.30 | [Buy](https://thepihut.com/products/pololu-5v-3a-step-up-step-down-voltage-regulator-s13v30f5) |
+| | | |
+| |  |  |
 | XT30 connectors | £5.99 | [Buy](https://www.amazon.co.uk/RUNCCI-Upgrade-Female-Connectors-Battery/dp/B07PC1YKVW) |
-| Raspberry Pi Camera Module 3 | £24.00 | [Buy](https://www.raspberrypi.com/products/camera-module-3/) |
+|  | |  |
 | FlySky FS-i6X Transmitter & FS-X6B Receiver | £68.00 | [Buy](https://www.flyingtech.co.uk/product/flysky-fs-i6x-10ch-transmitter-fs-x6b-2-4ghz-ibus-receiver/) |
-| VIFLY Toothstor 4-Port 2S LiPo Charger | £25.15 | [Buy](https://www.hobbyrc.co.uk/vifly-toothstor-4-port-2s-lipo-battery-charger) |
+|  | |  |
 | 15-pin to 15-pin camera adapter | £3.00 | [Buy](https://thepihut.com/products/raspberry-pi-zero-camera-adapter) |
 | 22-pin to 15-pin ribbon cable | £1.70 | [Buy](https://thepihut.com/products/zero-camera-cable-joiner-for-raspberry-pi-22-pin-to-22-pin) |
 | Jumper wires | £5.49 | [Buy](https://www.amazon.co.uk/Multicolored-Dupont-Breadboard-Compatible-Arduino/dp/B0DSZ7FD2V) |
