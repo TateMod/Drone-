@@ -1,4 +1,4 @@
-An open-source sub-250g quadcopter UAV built on custom MicroPython firmware developed from first principles. The platform provides full access to flight control algorithms including PID attitude control, complementary filter sensor fusion, motor mixing, optical flow position hold and TOF altitude hold. Designed to be reproducible and accessible for learning and further development.
+An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmware developed from first principles. The platform provides full access to flight control algorithms including PID attitude control, complementary filter sensor fusion, motor mixing, optical flow position hold and TOF altitude hold. Designed to be reproducible and accessible for learning and further development.
 
 ---
 
@@ -14,8 +14,7 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython firmware deve
 ## Repository Structure
 
 ```
-/firmware          - Pico W2 flight controller MicroPython source code
-/companion         - Raspberry Pi Zero W2 telemetry and camera code
+/firmware          - Pico W2 flight controller C++ source code
 /schematics        - Wiring diagrams and circuit schematics (EasyEDA)
 /frame             - 3D printable CAD frame files (STL and OnShape)
 /docs              - Build guide and assembly documentation
