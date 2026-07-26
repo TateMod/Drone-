@@ -1,3 +1,5 @@
+ML2 in progress see branch for updates
+
 An open-source sub-250g quadcopter UAV built on custom MicroPython firmware developed from first principles. The platform provides full access to flight control algorithms including PID attitude control, complementary filter sensor fusion, motor mixing, optical flow position hold and TOF altitude hold. Designed to be reproducible and accessible for learning and further development.
 
 ---
