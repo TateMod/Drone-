@@ -8,8 +8,7 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmw
 
 ## Demo Videos
 
-| Description | Link |
-|---|---|
+Not at testing stage
 
 ---
 
