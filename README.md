@@ -86,30 +86,28 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmw
 - Wire clippers
 - AA batteries (for transmitter)
 - MicroSD card and USB adapter
+- 3d printer and PLA or PETG
 
 
 ## Bill of Materials
+
 
 | Component | Price | Link |
 |---|---|---|
 | Raspberry Pi Pico W2 | £6.70 | [Buy](https://thepihut.com/products/raspberry-pi-pico-2-w) |
 | Raspberry Pi Zero W2 | £14.40 | [Buy](https://thepihut.com/products/raspberry-pi-zero-2) |
-|  | | |
 | Adafruit VL53L1X TOF | £14.40 | [Buy](https://thepihut.com/products/adafruit-vl53l1x-time-of-flight-distance-sensor-30-to-4000mm-stemma-qt-qwiic) |
-| PMW3901 Optical Flow Sensor | £20.70 | [Buy](https://thepihut.com/products/pmw3901-optical-flow-sensor-breakout) |
+| PMW3901 Optical Flow Sensor | £6 | [Buy](https://www.aliexpress.com/item/1005011822845593.html) |
+| 5V Buck Converter (step-down) | £2.15| [Buy](https://www.aliexpress.com/item/1005008257960729.html) |
+| MPU9250+BMP280 GY-91 10DOF IMU | £4.69 | [Buy](https://www.aliexpress.com/item/1005002956541258.html) |
 | Flash 1404 4500KV motors (x4) | £13.29 each (×4 = £53.16) | [Buy](https://www.unmannedtechshop.co.uk/products/flyfish-flash-1404-4500kv-fpv-motor) |
-| ||  |
 | HAKRC 45A 4-in-1 BLHeli_S ESC | £38.95 | [Buy](https://yourfpv.co.uk/product/hakrc-8-bit-45a-twin-mount-30-530-5mm-and-2020mm-4in1-esc/) |
-| | | |
-| |  |  |
 | XT30 connectors | £5.99 | [Buy](https://www.amazon.co.uk/RUNCCI-Upgrade-Female-Connectors-Battery/dp/B07PC1YKVW) |
-|  | |  |
 | FlySky FS-i6X Transmitter & FS-X6B Receiver | £68.00 | [Buy](https://www.flyingtech.co.uk/product/flysky-fs-i6x-10ch-transmitter-fs-x6b-2-4ghz-ibus-receiver/) |
-|  | |  |
 | 15-pin to 15-pin camera adapter | £3.00 | [Buy](https://thepihut.com/products/raspberry-pi-zero-camera-adapter) |
 | 22-pin to 15-pin ribbon cable | £1.70 | [Buy](https://thepihut.com/products/zero-camera-cable-joiner-for-raspberry-pi-22-pin-to-22-pin) |
 | Jumper wires | £5.49 | [Buy](https://www.amazon.co.uk/Multicolored-Dupont-Breadboard-Compatible-Arduino/dp/B0DSZ7FD2V) |
-| **Total** | **~£331.54** | |
+| **Total** | **DRONE - 156** |**+ controller - 224.63** |
 
 
 
@@ -134,7 +132,7 @@ Follow the diagram above for visual guidance on all connections.
 
 | Interface | Protocol | Pins | Purpose |
 |---|---|---|---|
-| IMU (LSM9DS1) | I2C | SDA: GPIO 4, SCL: GPIO 5 | Attitude data |
+| IMU (MPU9250)| I2C | SDA: GPIO 4, SCL: GPIO 5 | Attitude data |
 | TOF (VL53L1X) | I2C | SDA: GPIO 4, SCL: GPIO 5 | Altitude data |
 | Optical Flow (PMW3901) | SPI | MISO: GPIO 16, MOSI: GPIO 19, SCK: GPIO 18, CS: GPIO 17 | Position hold |
 | RC Receiver (FS-iA6B) | UART | RX: GPIO 1 | Pilot inputs |
@@ -142,7 +140,7 @@ Follow the diagram above for visual guidance on all connections.
 | Motor 2 (Back Left) | PWM | GPIO 14 | Motor speed |
 | Motor 3 (Back Right) | PWM | GPIO 12 | Motor speed |
 | Motor 4 (Front Right) | PWM | GPIO 13 | Motor speed |
-| Calibration Button | GPIO | GPIO 20 (GND on other pin) | Arm and calibrate |
+
 
 ---
 
@@ -220,13 +218,7 @@ Follow the diagram above for visual guidance on all connections.
 
 ### Pico W2 — Flight Controller
 
-1. Hold the BOOTSEL button on the Pico W2 and connect via USB to enter bootloader mode
-2. Download MicroPython V1.27.0 UF2 from the official Raspberry Pi website
-3. Drag the UF2 file onto the Pico W2 drive that appears
-4. Open Thonny IDE (version 4.1.7 or later)
-5. Open the firmware files from the `/firmware` folder
-6. Upload all files to the Pico W2 using Thonny
-7. Run `main.py` — the drone will wait for the calibration button to be pressed before arming
+1 Install the Raspberry Pi Pico VS Code extension — easiest route, it bundles the SDK, toolchain (arm-none-eabi-gcc + riscv toolchain for RP2350), CMake, and Ninja for you automatically
 
 ### Zero W2 — Companion Computer
 
@@ -240,14 +232,7 @@ Follow the diagram above for visual guidance on all connections.
 
 ## PID Tuning Values
 
-These are the final values used in testing. Adjust based on your build weight and component placement.
-
-| Axis | P | I | D |
-|---|---|---|---|
-| Roll | 1 | 0.002 | 0.1 |
-| Pitch | 1.2 | 0.002 | 0.1 |
-| Yaw | 0.5 | 0.0 | 0.0 |
-| Altitude | 0.2 | 0.0 | 0.01 |
+currently tuning on new rig
 
 ---
 
