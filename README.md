@@ -5,6 +5,9 @@ An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmw
 ---
 
 ## pictures
+Schmatic
+
+<img width="1141" height="802" alt="image" src="https://github.com/user-attachments/assets/f299810f-8b12-4904-a7ba-9a8459480e28" />
 
 ## Demo Videos
 
