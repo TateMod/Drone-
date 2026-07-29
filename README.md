@@ -19,7 +19,7 @@ Not at testing stage
 
 ```
 /firmware          - Pico W2 flight controller C++ source code
-/schematics        - Wiring diagrams and circuit schematics (EasyEDA)
+/schematics        - Wiring diagrams and circuit schematics (EasyEDA and KIcad)
 /frame             - 3D printable CAD frame files (STL and OnShape)
 /docs              - Build guide and assembly documentation
 ```
