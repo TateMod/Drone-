@@ -113,7 +113,7 @@ Not at testing stage
 | Jumper wires | £5.49 | [Buy](https://www.amazon.co.uk/Multicolored-Dupont-Breadboard-Compatible-Arduino/dp/B0DSZ7FD2V) |
 | **Total** | **DRONE - 156** |**+ controller - 224.63** |
 
-
+somw items can be sourced cheaper so look around if you think you caa find lower on sites like farnell, aliexpress etc
 
 
 
