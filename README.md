@@ -84,7 +84,7 @@ Not at testing stage
 - Multimeter
 - Solder
 - Jumper wires
-- Zip ties
+- nylon screw and nut set
 - Electrical tape
 - Allen keys
 - Wire clippers
