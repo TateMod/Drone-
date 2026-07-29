@@ -2,7 +2,7 @@ CURRENTLY WORK IN PROGRESS
 
 An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmware developed from first principles. The platform provides full access to flight control algorithms including PID attitude control, complementary filter sensor fusion, motor mixing, optical flow position hold and TOF altitude hold. Designed to be reproducible and accessible for learning and further development.
 
-new frame needs screws instead of zipties but frame is work in progress
+new frame needs screws instead of zipties but frame is work in progress and print parts sepratly
 ---
 
 ## pictures
