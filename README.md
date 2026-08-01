@@ -2,6 +2,9 @@ CURRENTLY WORK IN PROGRESS
 
 An open-source sub-250g quadcopter UAV built on custom MicroPython and c++ firmware developed from first principles. The platform provides full access to flight control algorithms including PID attitude control, complementary filter sensor fusion, motor mixing, optical flow position hold and TOF altitude hold. Designed to be reproducible and accessible for learning and further development.
 
+
+
+
 new frame needs screws instead of zipties but frame is work in progress and print parts sepratly
 ---
 
@@ -11,6 +14,7 @@ Schmatic
 <img width="1141" height="802" alt="image" src="https://github.com/user-attachments/assets/f299810f-8b12-4904-a7ba-9a8459480e28" />
 
 ## Demo Videos
+https://youtube.com/shorts/efRSgXoilsE?si=gfJzz4e1HIcRWGP6
 
 Not at testing stage
 
