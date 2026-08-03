@@ -14,9 +14,13 @@ Schmatic
 <img width="1141" height="802" alt="image" src="https://github.com/user-attachments/assets/f299810f-8b12-4904-a7ba-9a8459480e28" />
 
 ## Demo Videos
+
+single axis pid rig testing
 https://youtube.com/shorts/efRSgXoilsE?si=gfJzz4e1HIcRWGP6
 
-Not at testing stage
+not at free flight testing
+
+
 
 ---
 
